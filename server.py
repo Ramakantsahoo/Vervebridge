@@ -26,6 +26,8 @@ def recommend():
     recommendations = get_recommendations(title, df, cosine_sim)
     return jsonify(recommendations)
 
-if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+
+# This should not be in production
+# if __name__ == '__main__':
+#     app.run(debug=True, port=5000)
 
