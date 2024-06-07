@@ -80,13 +80,27 @@ To set up the project locally, follow these steps:
     git clone https://github.com/Ramakantsahoo/Vervebridge-BookRecommender.git
     cd Vervebridge
    ```
-2. Install the required dependencies:
+2. Create a virtual environment:
+   ``` 
+    python -m venv venv
+   ```
+3. Activate the virtual environment:
+  . On Windows:
+       ``` 
+          venv\Scripts\activate
+       ```
+  . On macOS/Linux:
+       ``` 
+          source venv/bin/activate
+       ```
+   
+4. Install the required dependencies:
 
    ``` 
     pip install -r requirements.txt
    ```
 
-3. Run the application:   
+5. Run the application:   
 
   ``` 
     python main.py
@@ -97,7 +111,7 @@ To set up the project locally, follow these steps:
 ## Testing the API
 You can test the API using tools like Postman or by making a curl request.
 
-#### Using Postman
+### Using Postman
 1. Open Postman.
 2. Set the request type to POST.
 3. Enter the URL: https://vervebridge-bookrecommender.onrender.com/recommend
@@ -114,7 +128,7 @@ You can test the API using tools like Postman or by making a curl request.
 
 6. Click Send and observe the response.
 
-#### Using curl
+### Using curl
 
   ```bash
      curl -X POST https://vervebridge-bookrecommender.onrender.com/recommend -H "Content-Type: application/json" -d '{"title": "Data Smart"}'
