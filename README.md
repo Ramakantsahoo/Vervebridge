@@ -21,6 +21,7 @@ This project is a Book Recommendation System designed to suggest books based on 
 - Modular code structure following coding standards.
 - Comprehensive logging and test cases.
 - Portable and maintainable codebase.
+- High level design of the system is in the file HLD.txt
 
 ## Technologies Used
 
