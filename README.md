@@ -79,7 +79,7 @@ To set up the project locally, follow these steps:
 1. Clone the repository from GitHub:
    ``` 
     git clone https://github.com/Ramakantsahoo/Vervebridge-BookRecommender.git
-    cd Vervebridge
+    cd Vervebridge-BookRecommender
    ```
 2. Create a virtual environment:
    ``` 
